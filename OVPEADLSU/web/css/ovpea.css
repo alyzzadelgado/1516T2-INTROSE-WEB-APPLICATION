@@ -1,0 +1,114 @@
+
+a, span {
+	color: #009688;
+	
+}
+
+a:hover {
+	color: #000000;
+}
+
+/*navigation*/
+nav {
+	background: #00695C;
+}
+
+.navbar-brand{
+	padding-bottom:0;
+}
+
+.main-nav:hover{
+	background-color: #e1e1e1;
+}
+
+.main-nav:hover{
+	background-color: #00695C;
+}
+
+.local-nav {
+	text-align: left;
+	height: 500px;
+	width: 250px;
+	background-color: #EEEEEE;
+	border: 5px white solid;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.main-nav p{
+	color: #888;
+} 
+
+
+h1{
+	margin-top:20px;
+}
+/*navigation text*/
+h2{
+	font-size:16px;
+	font-weight:bold;
+	margin-left:17px;
+	margin-bottom:20px;
+}
+h4{
+	font-size:16px;
+	margin-left:17px;
+	margin-bottom:20px;
+}
+
+.panel{
+	border: 0;
+}
+
+/*breadcrumbs*/
+.breadcrumb > li + li:before {
+   color: #CCCCCC;
+   content: "/ ";
+   padding: 0 5px;
+}
+
+/*login code*/
+.login {
+	background-color: #fff;
+	height: 50%;
+	text-align: center;
+	padding-bottom: 3%;
+	padding-top: 2%;
+	border-radius: 25px;
+}
+
+
+.login h1 {
+	text-align: center;
+}
+
+.login form {
+	text-align: left;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+.login button{
+	 height:34px;
+    margin:0 auto;
+    margin-right:10px;
+    float:left;
+}
+
+.background{
+    margin-bottom: 0px;
+    background-image: url(../img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+label{margin-left: 20px;}
+#datepicker{width:180px; margin: 0 20px 20px 20px;}
+#datepicker > span:hover{cursor: pointer;}
+

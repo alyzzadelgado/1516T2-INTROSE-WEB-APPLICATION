@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://java.sun.com/xml/ns/javaee"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/beans_1_0.xsd">
+    
+ <Context antiJARLocking="true" path="/OVPEADLSU">
+    <Resource 
+        name="jdbc/ovpeadb" 
+        type="javax.sql.DataSource"
+        driverClassName="com.mysql.jdbc.Driver"
+        username="ovpeadb"
+        password="dlsu1234"
+        url="jdbc:mysql://127.0.0.1:3306/ovpeadb"
+        initialSize="10"
+        maxActive="100"
+        maxWait="10000"
+        maxIdle="10000" />
+</Context>   
+    
+</beans>

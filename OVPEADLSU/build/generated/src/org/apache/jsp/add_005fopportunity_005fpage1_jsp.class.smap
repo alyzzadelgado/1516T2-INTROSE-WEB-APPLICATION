@@ -1,0 +1,19 @@
+SMAP
+add_005fopportunity_005fpage1_jsp.java
+JSP
+*S JSP
+*F
++ 0 add_opportunity_page1.jsp
+add_opportunity_page1.jsp
+*L
+1,32:48
+33,12:81
+44,26:93
+70:119,3
+71,44:122
+115:166,3
+116:169,8
+117:177
+117,3:178
+119,157:181
+*E
